@@ -61,16 +61,9 @@ public class LCOFaceDetection extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 12){
 
-//            ugrfui
-
-
-            Uri uri = data.getData();
-
             bitmap1 = (Bitmap) data.getExtras().get("data");
             imageView1.setImageBitmap(bitmap1);
-//            imageView1.setImageURI(uri);
             detectface(bitmap1);
-//            imageView1.setImageResource(R.drawable.camera);
         }
     }
 
