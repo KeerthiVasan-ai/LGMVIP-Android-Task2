@@ -61,6 +61,8 @@ public class LCOFaceDetection extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 12){
 
+//            ugrfui
+
 
             Uri uri = data.getData();
 
