@@ -1,7 +1,7 @@
 
 # Face Detection Using ML
 
-An Android Application developed for an internship at LetsGrowMore which have an ability to detect the face and display the simile percentage as a message.
+An Android Application with an ability to detect the face and display the simile percentage as a message.
 
 ## Face Detection
 
